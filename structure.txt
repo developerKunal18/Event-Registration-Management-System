@@ -1,0 +1,33 @@
+1. Features
+- Create and manage events
+- Register participants for events
+- Generate unique registration IDs
+- Prevent registrations when an event is full
+- Prevent duplicate participant registrations for the same event
+- Cancel registrations
+- Record and track payments
+- View participant lists and event details
+- Generate event-wise and revenue reports
+- Validate inputs and handle common errors
+
+2. Project structure
+day356_event_registration/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── event_manager.py
+├── participant_manager.py
+├── registration_manager.py
+├── payment_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── events.json
+    ├── participants.json
+    ├── registrations.json
+    └── payments.json
